@@ -1,0 +1,28 @@
+CET 2025-02-14 03:43:32.5153626   [TRACE  ]   app.Start                                                 forum/app/app.go:32                               
+CET 2025-02-14 03:43:32.515845    [TRACE  ]   postgres.NewForum                                         repositories/postgres/forum_repository.go:97      
+CET 2025-02-14 03:43:32.5162545   [TRACE  ]   handlers.NewForum                                         forum/handlers/forum_handler.go:59                
+CET 2025-02-14 03:43:32.5168268   [TRACE  ]   app.addForumRoutes                                        forum/app/forumRoutes.go:9                        
+CET 2025-02-14 03:43:32.5173461   [TRACE  ]   handlers.(*forum).CreateTableComments                     forum/handlers/forum_handler.go:67                
+CET 2025-02-14 03:43:32.5180431   [TRACE  ]   services.(*forum).CreateTableComments                     forum/services/forum_service.go:57                
+CET 2025-02-14 03:43:32.5183664   [TRACE  ]   postgres.(*forumRepo).CreateTableComments                 repositories/postgres/forum_repository.go:107     
+CET 2025-02-14 03:43:32.5331636   [INFO   ]   handlers.(*forum).CreateTableComments                     forum/handlers/forum_handler.go:69                
+    === DB comments ready to go
+
+CET 2025-02-14 03:43:32.5339179   [TRACE  ]   handlers.(*forum).CreateTableComplaints                   forum/handlers/forum_handler.go:85                
+CET 2025-02-14 03:43:32.5344882   [TRACE  ]   services.(*forum).CreateTableComplaints                   forum/services/forum_service.go:75                
+CET 2025-02-14 03:43:32.5347541   [TRACE  ]   postgres.(*forumRepo).CreateTableComplaints               repositories/postgres/forum_repository.go:200     
+CET 2025-02-14 03:43:32.5358346   [INFO   ]   handlers.(*forum).CreateTableComplaints                   forum/handlers/forum_handler.go:87                
+    === DB complaints ready to go
+
+CET 2025-02-14 03:43:32.5364188   [TRACE  ]   handlers.(*forum).CreateTableLikes                        forum/handlers/forum_handler.go:73                
+CET 2025-02-14 03:43:32.5370132   [TRACE  ]   services.(*forum).CreateTableLikes                        forum/services/forum_service.go:63                
+CET 2025-02-14 03:43:32.5372878   [TRACE  ]   postgres.(*forumRepo).CreateTableLikes                    repositories/postgres/forum_repository.go:138     
+CET 2025-02-14 03:43:32.5379201   [INFO   ]   handlers.(*forum).CreateTableLikes                        forum/handlers/forum_handler.go:75                
+    === DB likes ready to go
+
+CET 2025-02-14 03:43:32.5381662   [TRACE  ]   handlers.(*forum).CreateTableDislikes                     forum/handlers/forum_handler.go:79                
+CET 2025-02-14 03:43:32.5384169   [TRACE  ]   services.(*forum).CreateTableDislikes                     forum/services/forum_service.go:69                
+CET 2025-02-14 03:43:32.5386735   [TRACE  ]   postgres.(*forumRepo).CreateTableDislikes                 repositories/postgres/forum_repository.go:169     
+CET 2025-02-14 03:43:32.5392487   [INFO   ]   handlers.(*forum).CreateTableDislikes                     forum/handlers/forum_handler.go:81                
+    === DB dislikes ready to go
+
